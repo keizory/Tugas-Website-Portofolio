@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #ACB1D6;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Tambahkan margin kanan untuk item navigasi */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px; 
+}
+
+nav ul li a:hover {
+  background-color: #8294C4;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  text-align: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center; 
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: left; /* Penataan teks kiri */
+  margin-top: 20px;
+}
+
+.info p {
+  margin-bottom: 10px; 
+  line-height: 1.6; 
+}
+
+.info strong {
+  font-weight: bold;
+}
+
+.info a {
+  color: #8294C4;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  text-align: center;
+}
+
+section article {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+section article img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.contact-section {
+  text-align: center;
+  margin-top: 30px; 
+}
+
+footer {
+  background-color: #ACB1D6; 
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+.categories-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.header button {
+  padding: 10px 20px;
+  background-color: #5a67d8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #434190;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.category-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.category-card p {
+  font-size: 1.1em;
+  color: #333;
+}
